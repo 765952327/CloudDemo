@@ -1,0 +1,13 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: demo-server
+eureka:
+  instance:
+    hostname: demo-server
+  client: #服务提供者provider注册进eureka服务列表内
+    service-url:
+      register-with-eureka: true
+      fetch-registry: true
+      defaultZone: http://localhost:7001/eureka/
