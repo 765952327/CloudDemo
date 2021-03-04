@@ -5,7 +5,7 @@ spring:
     name: cloud-gateway
 eureka:
   instance:
-    hostname: cloud-gateway-service
+    hostname: localhost
   client: #服务提供者provider注册进eureka服务列表内
     service-url:
       register-with-eureka: true

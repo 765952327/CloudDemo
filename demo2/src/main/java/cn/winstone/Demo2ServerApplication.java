@@ -8,14 +8,14 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 /**
  * @author Winstone
- * @date 2021/3/4 - 3:31 下午
+ * @date 2021/3/4 - 3:56 下午
  */
 @SpringBootApplication
 @EnableEurekaClient
-@RibbonClient(name = "demo-server")
+@RibbonClient(name = "demo-server-2")
 @EnableFeignClients
-public class DemoServerApplication {
+public class Demo2ServerApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(DemoServerApplication.class,args);
+		SpringApplication.run(Demo2ServerApplication.class,args);
 	}
 }

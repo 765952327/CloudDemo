@@ -13,6 +13,7 @@
         <module>eureka-server</module>
         <module>gateway</module>
         <module>demo</module>
+        <module>demo2</module>
     </modules>
 
 
